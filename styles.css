@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.heading {
+    color: black;
+}
+
+a {
+    color: black;
+    padding: 10px;
+    -webkit-transition: color 0.5s;
+    -moz-transition:    color 0.5s;
+    -ms-transition:     color 0.5s;
+    -o-transition:      color 0.5s;
+    transition:         color 0.5s;
+}
+
+a:hover {
+    color:rgb(253, 185, 185);
+}
+
+.image1 {
+    background-image: url("./photo1.jpg");
+    height: 1200px;
+    background-repeat: no-repeat;
+}
+
+.image2 {
+    background-image: url("./photo2.jpg");
+    height: 410px;
+    background-repeat: no-repeat;
+}
